@@ -1,6 +1,6 @@
 ## Downchecker.
 
-A tinny tool that checks the given domain is down.
+A tiny tool that checks the given domain is down.
 
 ## Installation
 
@@ -17,7 +17,7 @@ go get github.com/boratanrikulu/downchecker
 
 ```
 NAME:
-   Downchecker - A tinny tool that checks the given domain is down.
+   Downchecker - A tiny tool that checks the given domain is down.
 
 USAGE:
    downchecker [global options] command [command options] [arguments...]
@@ -29,4 +29,5 @@ GLOBAL OPTIONS:
    --domain value, -d value  Domain name to check.
    --port value, -p value    Port number to check.
    --help, -h                show help (default: false)
+
 ```
