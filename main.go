@@ -14,12 +14,14 @@ func main() {
     Usage: "A tinny tool that checks the given domain is down.",
     Flags: []cli.Flag{
       &cli.StringFlag{
-        Name:  "domain, d",
+        Name:  "domain",
+        Aliases: []string{"d"},
         Usage: "Domain name to check.",
         Required: true,
       },
       &cli.StringFlag{
-        Name:  "port, p",
+        Name:  "port",
+        Aliases: []string{"p"},
         Usage: "Port number to check.",
         Required: false,
       },

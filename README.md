@@ -26,8 +26,7 @@ COMMANDS:
    help, h  Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
-   --domain value  Domain name to check.
-   --port value    Port number to check.
-   --help, -h      show help (default: false)
-
+   --domain value, -d value  Domain name to check.
+   --port value, -p value    Port number to check.
+   --help, -h                show help (default: false)
 ```
